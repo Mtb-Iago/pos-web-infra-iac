@@ -1,0 +1,10 @@
+# Copie este arquivo para um novo arquivo chamado "terraform.tfvars"
+# e insira suas credenciais da AWS abaixo.
+# O arquivo "terraform.tfvars" está no .gitignore e NÃO será enviado para o git.
+
+aws_access_key     = "SUA_ACCESS_KEY_AQUI" 
+aws_secret_key     = "SUA_SECRET_KEY_AQUI"
+db_password        = "SUA_SENHA_DO_BANCO_AQUI"
+
+# Se você estiver usando credenciais temporárias (como na AWS Academy), descomente a linha abaixo:
+# aws_session_token = "SEU_SESSION_TOKEN_AQUI"
